@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Outfit, sans-serif;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 1rem;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+main{
+    background:  hsl(216, 50%, 16%);
+    width: 300px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+h1{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.descricao{
+    margin-bottom: 1rem;
+    color: hsl(215, 51%, 70%);
+    font-weight: 600;
+    font-size: 1rem;
+}
+ 
+.dinheiro{
+    color: aqua;
+    align-items: center;
+    /* justify-content: center; */
+    font-weight: 600;
+    display: flex;
+    margin: 1rem 0;
+}
+.tempoo{
+    margin-left: 7rem;
+    color: hsl(215, 51%, 70%);
+}
+
+.avatar{
+    width: 50px;
+    margin-right: 1rem;
+}
+
+.linha{
+    width: 300px;
+    border: solid 1px #fff; opacity:0.05;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.spann{
+    color: hsl(215, 51%, 70%);
+    margin-right: 0.5rem;
+}
